@@ -1,0 +1,66 @@
+body {
+    background-color: #121212; 
+    color: #0e0303;
+    background-image: url(img/bg_login.jpg);
+}
+
+.card {
+    background-color: #1e1e1e; 
+    color: #e0e0e0; 
+    border: 1px solid #333;
+    margin-left: -270px;
+    margin-right: -270px;
+    margin-bottom: -24px;
+}
+
+.card-header {
+    background-color: #333;
+    color: #ff4c4c;
+    border-bottom: 1px solid #444; 
+}
+
+.card-title {
+    color: #ff4c4c; 
+}
+
+.table {
+    background-color: #1e1e1e; /* Dark table background */
+    color: #e0e0e0; /* Light text color */
+}
+
+.table thead th {
+    background-color: #333; /* Dark header background */
+    color: #ff4c4c; /* Red accent for header text */
+}
+
+.table tbody tr {
+    border-top: 1px solid #333; /* Dark border between rows */
+}
+
+.table tbody tr:hover {
+    background-color: #333; /* Dark hover effect */
+}
+
+.table-bordered {
+    border: 1px solid #333; /* Dark border for table */
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #444; /* Darker border for cells */
+}
+
+.display-4 {
+    color: #ff4c4c; /* Red accent for large text */
+}
+
+.mt-5, .mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+.row {
+    margin-bottom: 1rem;
+}

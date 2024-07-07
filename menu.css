@@ -1,0 +1,37 @@
+/* Custom CSS for sidebar height */
+.sidebar {
+    height: 100vh; 
+    overflow-y: auto; 
+}
+.brand-link {
+    background-color: #E50914; 
+    color: white;
+    border-bottom: 0;
+}
+.brand-link .brand-text {
+    font-weight: bold;
+}
+.sidebar-dark-primary .nav-sidebar .nav-link {
+    border-left: 3px solid transparent;
+    transition: border-left-color 0.3s ease;
+}
+.sidebar-dark-primary .nav-sidebar .nav-link:hover {
+    border-left-color: #E50914; 
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+.sidebar-dark-primary .user-panel .info {
+    color: #E50914; 
+}
+.nav-sidebar .nav-link {
+    padding: 10px 15px;
+}
+.nav-sidebar .nav-icon {
+    margin-right: 10px;
+}
+.nav-sidebar .nav-link p {
+    margin: 0;
+}
+.sidebar-dark-primary .nav-treeview {
+    padding-left: 20px;
+}
+

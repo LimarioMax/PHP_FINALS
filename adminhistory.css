@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414; /* Dark background */
+    color: #fff; /* Light text */
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 50px;
+    padding: 20px;
+}
+.table {
+    background-color: #141414; /* Dark table background */
+    color: #fff; /* Light text */
+}
+.table th {
+    cursor: pointer;
+    font-size: 1.2rem; /* Larger font size for headers */
+    text-align: center;
+    vertical-align: middle !important;
+}
+.table th a {
+    color: #fff; /* Light text */
+    text-decoration: none;
+}
+.table th:hover {
+    background-color: #333; /* Darker background on hover */
+}
+.table td {
+    vertical-align: middle !important;
+    text-align: center;
+    font-size: 1rem; /* Normal font size for table data */
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #333; /* Darker stripe color */
+}
+.status {
+    font-weight: bold;
+    font-size: 1rem; /* Normal font size for status */
+}
+.status.rented {
+    color: #ff3e3e; /* Netflix red */
+}
+.status.returned {
+    color: #46d369; /* Netflix green */
+}
+.btn-primary {
+    background-color: #e50914; /* Netflix red */
+    color: #fff; /* Light text */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px; /* Adjusted button padding */
+    font-size: 1rem; /* Normal font size for button text */
+    text-decoration: none;
+}
+.btn-primary:hover {
+    background-color: #ff3e3e; /* Lighter red on hover */
+}

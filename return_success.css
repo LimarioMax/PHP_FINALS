@@ -1,0 +1,36 @@
+body {
+    background-color: #141414; 
+    color: #fff; 
+    font-family: 'Arial', sans-serif; 
+}
+.container {
+    margin-top: 50px;
+    text-align: center; 
+}
+.message {
+    background-color: #000; 
+    color: #fff; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.3); 
+}
+.message h2 {
+    font-size: 36px; 
+    margin-bottom: 20px;
+}
+.message p {
+    font-size: 18px;
+    margin-bottom: 20px; 
+}
+.btn-primary {
+    background-color: #e50914; 
+    border-color: #e50914; 
+    padding: 10px 20px; 
+    font-size: 18px;
+    font-weight: bold; 
+    margin-top: 20px; 
+}
+.btn-primary:hover {
+    background-color: #ff3e3e; 
+    border-color: #ff3e3e; 
+}

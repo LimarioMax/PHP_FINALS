@@ -1,0 +1,100 @@
+@font-face {
+    font-family: header;
+    src: url(fonts/gunplay\ rg.otf);
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-image: url("img/bg_login.jpg");
+}
+.login-box {
+    margin: 150px auto;
+    max-width: 400px;
+    box-shadow: 26px 27px 15px 0px rgba(226, 43, 43, 0.1);
+}
+.login-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-logo a {
+    font-size: 36px;
+    color: #fff;
+    text-decoration: none;
+    font-family: header;
+    letter-spacing: 5px;
+}
+.login-card-body {
+    background: rgba(17, 17, 17, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.login-card-body p {
+    text-align: center;
+    color: #fff;
+}
+.login-card-body .btn-primary {
+    background-color: #e50914;
+    border-color: #e50914;
+    font-size: 20px; 
+}
+.login-card-body .btn-primary:hover {
+    background-color: #e50914;
+    border-color: #e50914;
+    opacity: 0.8;
+}
+.login-card-body .form-control {
+    background-color: #333;
+    border-color: #666;
+    color: #fff;
+}
+.login-card-body .form-control:focus {
+    background-color: #555;
+    border-color: #888;
+    color: #fff;
+}
+.login-card-body .input-group-text {
+    background-color: #333;
+    border-color: #666;
+   
+}
+.login-card-body .input-group-text .fas {
+    color: #e50914;
+}
+.login-card-body .alert {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+}
+.login-card-body .text-left {
+    text-align: left; 
+}
+
+#button {
+    cursor: pointer;
+    float: left;
+    transition: all 0.5s;
+    border-radius: 3px;
+  }
+
+  #button:hover {
+    box-shadow: 0 0 8px 4px rgba(240, 70, 70, 0.25) inset, 0 0 8px 4px rgba(240, 70, 70, 0.25);
+    border: 1px solid rgb(240, 70, 70);
+    border-radius: 3px;
+    color: rgb(85, 12, 12);
+  }
+
+
+
+  .login-card-body .form-control:hover {
+    background-color: rgba(229, 9, 20, 0.75); 
+    border-color: #e50914; 
+    opacity: 0.6; 
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s, opacity 0.3s; 
+}
+
+.row {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,155 @@
+body {
+    background-color: #141414;
+    font-family: Arial, sans-serif;
+    background-image: url("img/bg_login.jpg");
+}
+.register-box {
+    margin: 10% auto;
+    max-width: 500px;
+}
+.register-logo {
+    text-align: center;
+    
+}
+.register-logo a {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: header;
+}
+
+.register-card-body {
+    background: rgba(17, 17, 17, 0.8); 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.register-card-body p {
+    text-align: center;
+    color: #fff;
+}
+.register-card-body .btn-primary {
+    background-color: #e50914;
+    border-color: #e50914;
+    font-size: 18px; 
+}
+.register-card-body .btn-primary:hover {
+    background-color: #e50914;
+    border-color: #e50914;
+    opacity: 0.8;
+}
+.register-card-body .form-control {
+    background-color: #333;
+    border-color: #666;
+    color: #fff;
+}
+.register-card-body .form-control:focus {
+    background-color: #555;
+    border-color: #888;
+    color: #fff;
+}
+.register-card-body .input-group-text {
+    background-color: #333;
+    border-color: #666;
+    color: #fff;
+}
+.register-card-body .input-group-text .fas {
+    color: #e50914;
+}
+.register-card-body .alert {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+}
+.register-card-body .text-left {
+    text-align: left; 
+}
+
+
+.reg-icon {
+    width: 35px;
+    height: auto;
+    margin: 20px 20px 20px 0;
+    
+}
+
+
+
+
+/*LISTAHAN NG MGA FONTS */
+@font-face {
+    font-family: header;
+    src: url(fonts/gunplay\ rg.otf);
+}
+
+
+
+/* bg video format */
+.bgvidreg {
+   margin-top: 110px;
+    margin-left: 100px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;    
+}
+
+
+
+
+
+/* HOVER GLOW NG FORM STATEMENTS*/
+#button {
+    cursor: pointer;
+    float: left;
+    transition: all 0.5s;
+    border-radius: 3px;
+  }
+
+  #button:hover {
+    box-shadow: 0 0 8px 4px rgba(240, 70, 70, 0.25) inset, 0 0 8px 4px rgba(240, 70, 70, 0.25);
+    border: 1px solid rgb(240, 70, 70);
+    border-radius: 3px;
+    color: rgb(85, 12, 12);
+  }
+
+
+/* russel codes */
+.register-card-body .form-control:hover {
+    background-color: rgba(229, 9, 20, 0.75); 
+    border-color: #e50914; 
+    color: #fff;
+    opacity: 0.6; 
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s, opacity 0.3s; 
+}
+
+
+
+/*POP UP OF REGISTRATION FORM, KULANG PA NG PIC*/ 
+.register-box {
+    display: none; 
+    position: fixed;
+    top: 30%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    animation: popup 0.5s ease 0.2s forwards; 
+}
+
+@keyframes popup {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -60%); 
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%); 
+    }
+}
+
+
+.text-center {
+    color: #dc3545;
+}
+

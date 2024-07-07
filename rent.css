@@ -1,0 +1,55 @@
+@font-face {
+    font-family: header;
+    src: url(fonts/gunplay\ rg.otf);
+}
+body {
+    background-color: #000;
+    color: #000;
+    
+   
+}
+
+.title{
+    font-family: header;
+    font-size: 60px;
+}
+.container {
+    margin-top: 20px;
+}
+.card {
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.card img {
+    max-height: 350px;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+.card-body {
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.btn-primary {
+    background-color: #e50914;
+    border-color: #e50914;
+}
+.btn-primary:hover {
+    background-color: #b2070f;
+    border-color: #b2070f;
+}
+.modal-content {
+    background-color: #333;
+    color: #000;
+    border: none;
+}
+.modal-header {
+    border-bottom: 1px solid #555;
+}
+.form-label {
+    color: #000;
+}
